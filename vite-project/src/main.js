@@ -19,7 +19,6 @@ import { faUserTie, faProjectDiagram, faFileAlt, faFileInvoice } from '@fortawes
 library.add(faUserTie, faProjectDiagram, faFileAlt, faFileInvoice)
 
 // On importe quelques icônes (solid & brand)
-import { faBars, faArrowUp, faUser, faUserTie, faFileAlt, faFileInvoice, faFileInvoiceDollar, faMoneyBillWave, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faBars, faArrowUp, faUser, faUserTie, faFileAlt, faFileInvoice, faFileInvoiceDollar, faMoneyBillWave, faProjectDiagram, faDownload, faGithub, faLinkedin, faTwitter)
