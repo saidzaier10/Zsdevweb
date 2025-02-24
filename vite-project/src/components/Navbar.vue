@@ -7,9 +7,11 @@
         <a href="#apropos" @click="scrollToSection" class="text-gray-700 hover:text-blue-600">À propos</a>
         <a href="#portfolio" @click="scrollToSection" class="text-gray-700 hover:text-blue-600">Portfolio</a>
         <a href="#competences" @click="scrollToSection" class="text-gray-700 hover:text-blue-600">Compétences</a>
+        <a href="#inscription" @click="scrollToSection" class="text-blue-600 hover:text-blue-800">Inscription</a>
         <a href="#devis" @click="showDevisSection" class="text-gray-700 hover:text-blue-600">Devis</a>
         <a href="#contact" @click="scrollToSection" class="text-gray-700 hover:text-blue-600">Contact</a>
       </div>
+       
       <button @click="toggleMobileMenu" class="md:hidden text-gray-700 focus:outline-none" aria-label="Ouvrir/Fermer le menu">
         <i class="fas fa-bars text-2xl"></i>
       </button>
@@ -21,8 +23,10 @@
         <a href="#apropos" @click="closeMobileMenu" class="text-gray-700 hover:text-blue-600">À propos</a>
         <a href="#portfolio" @click="closeMobileMenu" class="text-gray-700 hover:text-blue-600">Portfolio</a>
         <a href="#competences" @click="closeMobileMenu" class="text-gray-700 hover:text-blue-600">Compétences</a>
+        <a href="#inscription" @click="closeMobileMenu" class="text-blue-600 hover:text-blue-800">Inscription</a>
         <a href="#devis" @click="showDevisSection" class="text-gray-700 hover:text-blue-600">Devis</a>
         <a href="#contact" @click="closeMobileMenu" class="text-gray-700 hover:text-blue-600">Contact</a>
+        
       </div>
     </div>
   </nav>

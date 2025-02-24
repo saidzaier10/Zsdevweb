@@ -7,6 +7,7 @@
     <Skills />
     <Contact />
     <Devis id="devis" :isDevisSectionVisible="isDevisSectionVisible" />
+    <Inscription />
     <Footer />
     <button
       @click="scrollToTop"
@@ -28,6 +29,7 @@ import Skills from './components/Skills.vue';
 import Contact from './components/Contact.vue';
 import Devis from './components/Devis.vue';
 import Footer from './components/Footer.vue';
+import Inscription from './components/Inscription.vue';
 
 export default {
   name: 'App',
@@ -37,9 +39,11 @@ export default {
     About,
     Portfolio,
     Skills,
+    Inscription,
     Contact,
     Devis,
     Footer,
+    
   },
   data() {
     return {

@@ -10,7 +10,7 @@ const app = createApp(App)
 
 app.mount('#app')
 
-// Initialiser AOS
+// Initialisation AOS
 AOS.init()
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -18,15 +18,13 @@ import { faUserTie, faProjectDiagram, faFileAlt, faFileInvoice } from '@fortawes
 
 library.add(faUserTie, faProjectDiagram, faFileAlt, faFileInvoice)
 
-// On importe quelques icônes (solid & brand)
+// importation de quelques icônes (solid & brand)
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faBars, faArrowUp, faUser, faUserTie, faFileAlt, faFileInvoice, faFileInvoiceDollar, faMoneyBillWave, faProjectDiagram, faDownload, faGithub, faLinkedin, faTwitter)
 
-// Déclarer le composant global
+// Déclaration de composant global
 app.component('font-awesome-icon', FontAwesomeIcon)
-
-// AOS.init() (si vous voulez init AOS ici)
 
 import Navbar from './components/Navbar.vue'
 import Home from './components/Home.vue'
@@ -36,3 +34,4 @@ import Skills from './components/Skills.vue'
 import Contact from './components/Contact.vue'
 import Devis from './components/Devis.vue'
 import Footer from './components/Footer.vue'
+import Inscription from './components/Inscription.vue'
